@@ -1,0 +1,129 @@
+.App {
+  background-color: #170c1a;
+  margin: auto 0;
+  width: auto;
+  height: 2000px;
+  text-align: center;
+}
+
+.App-header {
+  background-image: url("E:\LLYOKO\latihan_react\todolist_app\image\background.jpg");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding: 12px;
+}
+
+.Todos {
+  text-align: center;
+  color: #ffffff;
+  width: 40%;
+  margin: 0 auto;
+}
+
+.TodoItem {
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  border: 2px solid #3e233d;
+  font-size: 24px;
+  border-radius: 1rem;
+}
+
+input[type=checkbox] {
+  transform: scale(1.5);
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  margin: 12px;
+}
+
+button {
+  appearance: button;
+  background-color: #942c64;
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, .15), rgba(255, 255, 255, 0));
+  border: 1px solid #942c64;
+  border-radius: 1rem;
+  box-shadow: rgba(255, 255, 255, 0.15) 0 1px 0 inset,rgba(46, 54, 80, 0.075) 0 1px 1px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Inter,sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5;
+  margin: auto 0;
+  padding: .5rem 1rem;
+  text-align: center;
+  text-transform: none;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+      }
+    
+      button:focus:not(:focus-visible),
+      button:focus {
+        outline: 0;
+      }
+      
+      button:hover {
+        background-color: #ba5897;
+        border-color: #ba5897;
+      }
+      
+      button:focus {
+        background-color: #ba5897;
+        border-color: #ba5897;
+        box-shadow: rgba(255, 255, 255, 0.15) 0 1px 0 inset, rgba(46, 54, 80, 0.075) 0 1px 1px, rgba(104, 101, 235, 0.5) 0 0 0 .2rem;
+      }
+      
+      button:active {
+        background-color: #ba5897;
+        background-image: none;
+        border-color: #ba5897;
+        box-shadow: rgba(46, 54, 80, 0.125) 0 3px 5px inset;
+      }
+      
+      button:active:focus {
+        box-shadow: rgba(46, 54, 80, 0.125) 0 3px 5px inset, rgba(104, 101, 235, 0.5) 0 0 0 .2rem;
+      }
+      
+      button:disabled {
+        background-image: none;
+        box-shadow: none;
+        opacity: .65;
+        pointer-events: none;
+      }
+
+    #closeButton {
+        background-color: #fff3f3;
+        color: #e14646;
+        border-radius: 50%;
+        border-color: #fff3f3;
+        margin-left: 30px;
+      }
+  
+    #closeButton:active,
+     section.flat button.active {
+      background-color: #eb5555;
+      text-shadow: -1px 1px #193047;
+      color: rgb(255, 255, 255);
+      }
+
+form{
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+input[type= text]{
+  border-radius: 1rem;
+  margin-right: 25px;
+  padding-left: 2%;
+}
+
